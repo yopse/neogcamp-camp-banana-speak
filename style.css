@@ -1,0 +1,88 @@
+* {
+
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+body {
+
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-y:hidden;
+}
+
+textarea {
+    width: 45%;
+    height: 14vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 3px;
+    border:3px solid #ffdb08;
+}
+
+textarea:focus {
+
+    outline: none;
+}
+#output {
+   
+    height: 14vh;
+    width:45%;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 3px;
+    border-radius: 3px;
+    border:3px solid #ffdb08;
+}
+
+
+header {
+
+     background-color:#ffdb08;
+     height:15vh;
+     text-align: center;
+     padding:25px;
+     margin-bottom:60px;
+}
+
+#btn-translate {
+
+    display: block;
+    margin-top:20px!important;
+    outline:none;
+    border: none;
+    padding: 12px;
+    font-weight: bold;
+    background-color: #ffdb08;
+}
+#txt-input,#btn-translate,#output {
+
+    margin:auto;
+}
+
+.all-contained {
+
+     text-align: center;
+}
+.out-text {
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+
+
+
+
+.footer {
+
+     margin-top:60px;
+     background-color:#ffdb08;
+     height:20vh;
+     text-align: center;
+     padding:25px;
+     margin-bottom:60px;
+}
+
+h4 {
+     margin-bottom: 10px;
+}
